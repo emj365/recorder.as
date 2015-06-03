@@ -19,13 +19,13 @@ package {
 
   import flash.media.SoundChannel;
 
-  public class YLRecorder extends MovieClip {
+  public class Recorder extends MovieClip {
 
     private var mic:Mic;
     private var wavBytes:ByteArray;
     private var mp3Encoder:ShineMP3Encoder;
 
-    public function YLRecorder() {
+    public function Recorder() {
       //ExternalInterface.marshallExceptions = true;
       flash.system.Security.allowDomain('*')
       ExternalInterface.addCallback("startRecording", startRecording);
