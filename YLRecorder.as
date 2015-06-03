@@ -82,11 +82,13 @@ package {
     }
 
     private function previewComplete(event:Event):void {
+      //TODO: preview complete event
       log("previewComplete");
       ExternalInterface.call("previewComplete");
     }
 
     private function micActivity(event:ActivityEvent):void {
+      //TODO: mic activity event
       if (event.activating) {
         ExternalInterface.call("setCanRecording");
         log("Microphone can use");
@@ -100,10 +102,12 @@ package {
     }
 
     private function mp3EncodeError(event:ErrorEvent):void {
+      //TODO: update event
       log("[ERROR] : ", event.text);
     }
 
     private function mp3EncodeComplete(event:Event):void {
+      //TODO: complete event
       log("mp3 length: ", mp3Encoder.getMP3Data().length);
       stage.addEventListener(MouseEvent.CLICK, function(event:Event):void {
         mp3Encoder.saveAs((new Date()).time.toString() + '.mp3');
