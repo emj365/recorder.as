@@ -10,3 +10,6 @@
 [submodule "vendor/mic.as"]
 	path = vendor/mic.as
 	url = git@github.com:emj365/mic.as.git
+[submodule "vendor/swfobject"]
+	path = vendor/swfobject
+	url = git@github.com:swfobject/swfobject.git
