@@ -1,0 +1,12 @@
+[submodule "vendor/WAVWriter.as"]
+	path = vendor/WAVWriter.as
+	url = git@github.com:emj365/WAVWriter.as.git
+[submodule "vendor/as3wavsound"]
+	path = vendor/as3wavsound
+	url = git@github.com:emj365/as3wavsound.git
+[submodule "vendor/Shine-MP3-Encoder-on-AS3-Alchemy"]
+	path = vendor/Shine-MP3-Encoder-on-AS3-Alchemy
+	url = git@github.com:emj365/Shine-MP3-Encoder-on-AS3-Alchemy.git
+[submodule "vendor/mic.as"]
+	path = vendor/mic.as
+	url = git@github.com:emj365/mic.as.git
