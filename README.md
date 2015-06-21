@@ -1,6 +1,6 @@
 # reorder.as
 
-An AS3 application for recording audio in web browser that can return the MP3 data with the Base64 encoding.
+An AS3 application for recording audio in web browser that can return the MP3 data in Base64 encoding.
 
 ## Diagrams:
 
