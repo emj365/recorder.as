@@ -1,4 +1,4 @@
-# reorder.as
+# recorder.as
 
 An AS3 application for recording audio in web browser that can return the MP3 data in Base64 encoding.
 
